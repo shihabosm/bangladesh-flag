@@ -2,6 +2,21 @@
     padding: 0;
     margin: 0;
 }
+h1{
+    background: linear-gradient(pink,rgb(168, 168, 247));
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px pink;
+    color:bisque
+}
+h1:hover{
+    background: rgb(226, 127, 143);
+    color: burlywood;
+    text-shadow: 2px 2px blueviolet;
+}
 .main-continer{
     background: linear-gradient(pink,rgb(96, 96, 196));
     height: 100vh;
