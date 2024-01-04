@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-continer{
+    background: linear-gradient(pink,rgb(96, 96, 196));
+    height: 100vh;
+}
+.flag-continer{
+width: 600px;
+height: 300px;
+background-color: green;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.flag-circle{
+    background-color: red;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+.flag-handle{
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 30px;
+    position: relative;
+    top: 95%;
+    border-top-right-radius: 50px;
+}
+.flag{
+    background-color: burlywood;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
